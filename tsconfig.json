@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+      "target": "ES6",
+      "lib": ["ES2015", "DOM"],
+      "strict": true,
+      "esModuleInterop": true
+    },
+    "include": [
+      "*.ts"
+, "src/app.ts"    ]
+  }
+  

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokeSearch</title>
+    <link rel="stylesheet" href="src/styles/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>PokeDex</h1>
+        <input type="text" id="pokemonName" class="pkName" placeholder="Digite o nome do pokemon">
+        <button id="searchButton" class="searchBtn">Pesquisar</button>
+        
+        <div id="pokemonDetails" class="pokemon-details hidden">
+            <img id="pokemonImage" alt="Pokemon Image">
+            <h2 id="name"></h2>
+            <p><strong>Tipo:</strong> <span id="tipo"></span></p>
+            <p><strong>Habilidades:</strong> <span id="habilidades"></span></p>
+        </div>
+    </div>
+
+    <script src="src/app.js"></script>
+</body>
+</html>
